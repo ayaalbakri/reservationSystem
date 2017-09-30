@@ -1,0 +1,19 @@
+{
+  "name": "asynco",
+  "version": "1.0.0",
+  "description": "Web application that's remind you with what you should do now.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asynco-RBK/Reservation-System-GreenField.git"
+  },
+  "author": "asynco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asynco-RBK/Reservation-System-GreenField/issues"
+  },
+  "homepage": "https://github.com/Asynco-RBK/Reservation-System-GreenField#readme"
+}

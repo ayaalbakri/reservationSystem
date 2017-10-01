@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--create a directive angluar that's we want the whole this document to be in our web app -->
+<html ng-app ="myApp">
+<head>
+	<title>Reservation-System</title>
+	<!--bootstrab cdn to take care of style insted of css -->
+   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	 <!--Angularjs cdn insted of dawnloading it -->
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<!--Recognize the module and controller file -->
+	 			<script src="./index.jsx"></script>
+	 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-animate.js"></script>
+</head>
+<body>
+	<div ng-controller="loginCtrl">
+	<form action="/" id="myLogin">
+	UserName : <input type="text" ng-model="username" id="username"><br>
+	Password : <input type="text" ng-model="password" id="password"><br>
+	<button type="button" ng-click="submit()">Login</button>
+	</form>
+</div>
+
+</body>
+</html>
